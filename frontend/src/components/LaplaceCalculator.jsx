@@ -85,7 +85,7 @@ const LaplaceCalculator = () => {
         )}
         {error && <div className="alert alert-danger"><strong>Error:</strong> {error}</div>}
 
-        <LaplaceGraph laplaceData={laplaceData} /> {/* Mostramos el gráfico aquí */}
+        <LaplaceGraph laplaceData={laplaceData} />
 
         <div className="history-section">
           <h3>Historial de Cálculos</h3>
