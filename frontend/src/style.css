@@ -1,4 +1,3 @@
-/* Estilos Globales */
 * {
   margin: 0;
   padding: 0;
@@ -20,15 +19,17 @@ body {
   border-radius: 8px;
 }
 
-h2 {
+h2.title {
   color: #4CAF50;
   font-size: 1.5rem;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .input-group {
   display: flex;
   gap: 10px;
+  margin-top: 1rem;
 }
 
 .form-control {
@@ -67,4 +68,46 @@ h2 {
 .alert-danger {
   background-color: #f8d7da;
   color: #721c24;
+}
+
+.history-section {
+  margin-top: 30px;
+}
+
+.history-section h3 {
+  font-size: 1.2rem;
+  color: #4CAF50;
+  margin-bottom: 15px;
+}
+
+.history-list {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.history-item {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
+
+.frac {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.frac-line {
+  width: 100%;
+  height: 2px;
+  background: black;
+  margin: 2px 0;
 }
